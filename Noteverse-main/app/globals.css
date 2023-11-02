@@ -1,0 +1,75 @@
+.dashboard-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dashboard-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(50% - 15px); /* 2 cards per row with 15px spacing */
+  transition: transform 0.3s;
+  cursor: pointer;
+  margin: 20px; /* Add spacing here */
+}
+
+.card-notes {
+  background-color: #ffcc00;
+}
+
+.card-collaboration {
+  background-color: #33cc33;
+}
+
+.card-search {
+  background-color: #3399ff;
+}
+
+.card-creativity {
+  background-color: #ff66cc;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05);
+}
+
+.dashboard-button {
+  background-color: #ffcc00;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.colorful-button {
+  background-color: #ff66cc;
+}
+
+.dashboard-button:hover {
+  background-color: #ff9900;
+}
+.dashboard-container {
+  position: relative;
+}
+
+.login-signup-buttons {
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  display: flex;
+  gap: 10px;
+}
